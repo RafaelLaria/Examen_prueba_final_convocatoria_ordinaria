@@ -8,4 +8,5 @@ class Nombre:
         return f'Hola {self.nombre}'
     
 persona = Nombre('Pancho')
+print(persona)
 print(persona.saludar())
